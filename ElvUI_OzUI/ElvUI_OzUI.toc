@@ -8,3 +8,4 @@
 
 install.lua
 media\load_media.xml
+modules\load_modules.xml

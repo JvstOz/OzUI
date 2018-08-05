@@ -537,6 +537,11 @@ local function InsertOptions()
 				desc = "Run the installation process.",
 				func = function() E:GetModule("PluginInstaller"):Queue(InstallerData); E:ToggleConfig(); end,
 			},
+			description3 = {
+				order = 8,
+				type = "description",
+				name = "Credits: Blazeflack, Benik",
+			},
 		},
 	}
 end
