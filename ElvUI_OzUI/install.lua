@@ -421,8 +421,74 @@ E.db["chat"]["panelWidth"] = 354
 		-- certain conditions then this is how you could do it
 		if layout == "tank" then
 			--Make some changes to the layout posted above
-		elseif layout == "dps" then
-			--Make some other changes
+		elseif layout == "dpsv2" then
+E.db["movers"]["ExperienceBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-154"
+E.db["movers"]["AzeriteBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-154"
+E.db["movers"]["ReputationBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-163"
+E.db["movers"]["HonorBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-172"
+E.db["movers"]["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-32"
+E.db["movers"]["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-156,-3"
+E.db["movers"]["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,208,363"
+E.db["movers"]["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,524,-244"
+E.db["movers"]["SocialMenuMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,160"
+E.db["movers"]["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,153"
+E.db["movers"]["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,350"
+E.db["movers"]["MicrobarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,26"
+E.db["movers"]["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,-176,375"
+E.db["movers"]["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,281"
+E.db["movers"]["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,252"
+E.db["movers"]["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,223"
+E.db["movers"]["ElvAB_4"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,359,4"
+E.db["movers"]["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-359,4"
+E.db["movers"]["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,4"
+E.db["movers"]["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,820,220"
+E.db["movers"]["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-236,288"
+E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,418,4"
+E.db["movers"]["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-236,310"
+E.db["movers"]["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,310"
+E.db["movers"]["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,546,310"
+E.db["movers"]["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,236,310"
+E.db["movers"]["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,236,288"
+E.db["movers"]["ElvUF_TargetTargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-547,310"
+E.db["movers"]["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,465,310"
+E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-321,-320"
+E.db["movers"]["PlayerPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,341"
+E.db["movers"]["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-75,-279"
+E.db["movers"]["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-216"
+E.db["movers"]["SquareMinimapButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-183"
+E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-3,121"
+E.db["movers"]["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-346,-320"
+E.db["movers"]["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-156,-57"
+E.db["movers"]["TalkingHeadFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,37"
+E.db["unitframe"]["units"]["raid"]["horizontalSpacing"] = 1
+E.db["unitframe"]["units"]["raid"]["rdebuffs"]["font"] = "Expressway"
+E.db["unitframe"]["units"]["raid"]["rdebuffs"]["fontOutline"] = "OUTLINE"
+E.db["unitframe"]["units"]["raid"]["rdebuffs"]["size"] = 17
+E.db["unitframe"]["units"]["raid"]["growthDirection"] = "RIGHT_UP"
+E.db["unitframe"]["units"]["raid"]["roleIcon"]["size"] = 10
+E.db["unitframe"]["units"]["raid"]["power"]["enable"] = false
+E.db["unitframe"]["units"]["raid"]["healPrediction"] = true
+E.db["unitframe"]["units"]["raid"]["width"] = 70
+E.db["unitframe"]["units"]["raid"]["name"]["text_format"] = "[name:short]"
+E.db["unitframe"]["units"]["raid"]["name"]["position"] = "TOP"
+E.db["unitframe"]["units"]["raid"]["disableTargetGlow"] = true
+E.db["unitframe"]["units"]["raid"]["height"] = 30
+E.db["unitframe"]["units"]["raid"]["verticalSpacing"] = 1
+E.db["unitframe"]["units"]["party"]["debuffs"]["anchorPoint"] = "LEFT"
+E.db["unitframe"]["units"]["party"]["debuffs"]["sizeOverride"] = 30
+E.db["unitframe"]["units"]["party"]["disableTargetGlow"] = true
+E.db["unitframe"]["units"]["party"]["rdebuffs"]["font"] = "Expressway"
+E.db["unitframe"]["units"]["party"]["rdebuffs"]["fontOutline"] = "OUTLINE"
+E.db["unitframe"]["units"]["party"]["rdebuffs"]["enable"] = true
+E.db["unitframe"]["units"]["party"]["rdebuffs"]["size"] = 17
+E.db["unitframe"]["units"]["party"]["roleIcon"]["size"] = 10
+E.db["unitframe"]["units"]["party"]["power"]["text_format"] = ""
+E.db["unitframe"]["units"]["party"]["power"]["height"] = 3
+E.db["unitframe"]["units"]["party"]["width"] = 80
+E.db["unitframe"]["units"]["party"]["health"]["text_format"] = ""
+E.db["unitframe"]["units"]["party"]["name"]["text_format"] = "[name:veryshort]"
+E.db["unitframe"]["units"]["party"]["name"]["position"] = "TOP"
+E.db["unitframe"]["units"]["party"]["height"] = 30
 		elseif layout == "healer" then
 E.db["movers"]["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-236,288"
 E.db["movers"]["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,461,385"
@@ -540,12 +606,16 @@ local InstallerData = {
 			PluginInstallFrame.SubTitle:SetText("Layouts")
 			PluginInstallFrame.Desc1:SetText("These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
+			PluginInstallFrame.Desc3:SetText("|cffc41e3aDPS/Tank Layout v1|r has more higher unitframes/actionbars & |cffc41e3aDPS/Tank Layout v2|r has lowered unitframes/actionbars similar to the healing layout.")
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function() SetupLayout("dps") end)
-			PluginInstallFrame.Option1:SetText("|cffc41e3aDPS/Tank Layout|r")
+			PluginInstallFrame.Option1:SetText("|cffc41e3aDPS Layout v1|r")
 			PluginInstallFrame.Option2:Show()
-			PluginInstallFrame.Option2:SetScript("OnClick", function() SetupLayout("healer") end)
-			PluginInstallFrame.Option2:SetText("|cff00ff96Healer|r")
+			PluginInstallFrame.Option2:SetScript("OnClick", function() SetupLayout("dpsv2") end)
+			PluginInstallFrame.Option2:SetText("|cffc41e3aDPS Layout v2|r")
+			PluginInstallFrame.Option3:Show()
+			PluginInstallFrame.Option3:SetScript("OnClick", function() SetupLayout("healer") end)
+			PluginInstallFrame.Option3:SetText("|cff00ff96Healer|r")
 		end,
 		[3] = function()
 			PluginInstallFrame.SubTitle:SetText("Installation Complete")
